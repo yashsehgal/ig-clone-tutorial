@@ -1,0 +1,45 @@
+
+div.Header {
+  display: grid;
+  grid-template-columns: auto auto 14%;
+  align-items: center;
+
+  > div.header-logo-container {
+    display: flex;
+    align-items: center;
+
+    > div.line {
+      content: "";
+      width: 2px;
+      background-color: black;
+    }
+
+    > i {
+      font-size: 28px;
+    }
+  }
+
+  > div.header-search-container {
+    > input {
+      padding: 0.2em;
+      background-color: rgb(230, 230, 230);
+      border: 0.6px solid gray;
+      border-radius: 2px;
+      text-align: center;
+      width: 36%;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  > div.header-icon-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    > i {
+      font-size: 22px;
+    }
+  }
+}

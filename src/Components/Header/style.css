@@ -1,0 +1,53 @@
+div.Header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto 14%;
+      grid-template-columns: auto auto 14%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.Header > div.header-logo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.Header > div.header-logo-container > div.line {
+  content: "";
+  width: 2px;
+  background-color: black;
+}
+
+div.Header > div.header-logo-container > i {
+  font-size: 28px;
+}
+
+div.Header > div.header-search-container > input {
+  padding: 0.2em;
+  background-color: #e6e6e6;
+  border: 0.6px solid gray;
+  border-radius: 2px;
+  text-align: center;
+  width: 36%;
+}
+
+div.Header > div.header-search-container > input:focus {
+  outline: none;
+}
+
+div.Header > div.header-icon-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+}
+
+div.Header > div.header-icon-container > i {
+  font-size: 22px;
+}
+/*# sourceMappingURL=style.css.map */

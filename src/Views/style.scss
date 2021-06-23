@@ -1,0 +1,12 @@
+
+div.Home {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px;
+  margin-top: 3em;
+
+  > div.StoryContainer {
+    display: flex;
+    align-items: center;
+  }
+}
